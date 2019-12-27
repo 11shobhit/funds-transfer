@@ -1,0 +1,13 @@
+hibernate/dao/UserDao.class
+local/server/WebApp.class
+manager/FundsTransferManager.class
+exceptions/WebApplicationException.class
+beans/User.class
+util/locks/LocksUtil.class
+hibernate/util/HibernateUtil.class
+request/CreateUserRequest.class
+service/UserService.class
+hibernate/dao/UserDaoImpl.class
+exceptions/InsufficientFundsException.class
+request/FundsTransferRequest.class
+service/FundsTransferService.class
