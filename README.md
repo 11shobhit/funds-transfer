@@ -1,11 +1,11 @@
 # funds-transfer
 
-1-Test cases are sufficient enough to demonstrate the functionality
-2- To compile and run in local
+#1-Test cases are sufficient enough to demonstrate the functionality
+#2- To compile and run in local
   2.1 mvn clean install
   2.2 java -jar funds-transfer-with-deps-0.0.1-SNAPSHOT.jar
   2.3 execute the apis exposed
- 3-create the user
+ #3-create the user
  
  curl -X POST \
   http://localhost:9998/user/create \
@@ -26,7 +26,7 @@
 "balance":100
 }'
 
-4- Get the user created
+#4- Get the user created
 
 curl -X GET \
   http://localhost:9998/user/ \
@@ -39,7 +39,7 @@ curl -X GET \
   -H 'User-Agent: PostmanRuntime/7.20.1' \
   -H 'cache-control: no-cache'
   
-  5- Transfer the funnds(ensure user ids match with the user created)
+  #5- Transfer the funnds(ensure user ids match with the user created)
   
   curl -X POST \
   http://localhost:9998/funds/transfer \
